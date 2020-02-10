@@ -8,7 +8,7 @@ cd /d D:/  // use /d to change directory.
 > git log   // to see git commit history
 > git checkout <commit_id> // to read only (reach at any commit point)
 > git revert <commit_id> // to permantely remove any commit from a list of commit list
-> git reset <commit_id> //  to remove all the commit done till specified commit_id 
+> git reset <commit_id> //  to remove all the commit done till specified commit_id
 > git reset <commit_id> --hard //to remove all the commit done till specified commit_id permantely
 // The main diff between git reset and git reset --hard is that git reset hard permantely remove all commit till specified commit_id and you can't
 // recover but from "git reset" you can recover.
@@ -17,7 +17,7 @@ cd /d D:/  // use /d to change directory.
 > git branch <branch_name>  // to create a branch
 > git branch -a //to list down all branches
 > git checkout <branch_name> //move to specified branch
-> git checkout -b <branch_name> // create a branch with specified branch_name and move to the specified branch_name 
+> git checkout -b <branch_name> // create a branch with specified branch_name and move to the specified branch_name
 
 //merging branch releted commands
 > git merge <branch_name>
@@ -28,5 +28,4 @@ cd /d D:/  // use /d to change directory.
 > git remote add <alias_name> <url>  //to add alias for url
 > git push <url> <branch_name of remote github not local git> //to push a repo to the github
 > git clone <url> //clone a repo to the local computer from remote
-
-
+> git remote -v // to check fetch and push github link
